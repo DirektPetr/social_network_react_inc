@@ -1,0 +1,12 @@
+.sidebar {
+  grid-area: b;
+  background-color: rgb(179, 250, 137);
+}
+
+.menu__item a{
+  text-decoration: none;
+}
+
+.active__item {
+  color: rgb(212, 10, 10);
+}

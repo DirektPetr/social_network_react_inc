@@ -1,6 +1,8 @@
+import main from './Main.module.css';
+
 export const Main = () => {
   return (
-    <section className='main__content'>
+    <section className={main.main__content}>
       <img className='img__content' src='https://spreekbeurtenplein.nl/wp-content/uploads/2021/03/spreekbeurt-tijger.jpg' />
 
       <div>

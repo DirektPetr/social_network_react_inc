@@ -18,30 +18,11 @@ h1, h2, h3, h4 {
                         "d d d";
 }
 
-.header__main {
-  grid-area: a;
-  background-color: rgb(250, 248, 154);
-}
 
-.sidebar {
-  grid-area: b;
-  background-color: rgb(198, 255, 165);
-}
 
-.main__content {
-  grid-area: c;
-  background-color: rgb(253, 183, 78);
-}
 
-.footer__main {
-  grid-area: d;
-  background-color: rgb(182, 180, 180);
-}
 
-.img__logo {
-  max-width: 100px;
-}
 
-.menu__item a{
-  text-decoration: none;
-}
+
+
+
