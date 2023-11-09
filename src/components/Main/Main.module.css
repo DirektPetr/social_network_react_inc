@@ -1,0 +1,28 @@
+.main__content {
+  margin: 20px 0px;
+  grid-area: c;
+  background-color: #fff;
+}
+
+.img__content {
+  width: 100%;
+}
+
+.cover {
+  margin-bottom: 30px;
+  border-radius: 10px 10px 0px 0px;
+  min-height: 200px;
+  background: url('./../../img/cover-7.jpg');
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-size: cover;
+}
+
+.posts {
+  
+}
+
+.post {
+  font-size: 14px;
+}

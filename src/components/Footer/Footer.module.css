@@ -1,0 +1,23 @@
+
+.footer__main {
+  width: 100%;
+  grid-area: d;
+  border-top: 1px solid #f8eebf;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.img__logo {
+  display: block;
+  max-width: 100px;
+}
+
+.title {
+  color: #36477B;
+  font-weight: 100;
+}
+
+span {
+  
+}

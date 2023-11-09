@@ -1,0 +1,14 @@
+.post {
+  margin: 20px 0px;
+}
+
+.logo__img {
+  width: 150px;
+  border-radius: 50%;
+}
+
+.like {
+  color: red;
+  font-weight: bold;
+  padding-left: 60px;
+}

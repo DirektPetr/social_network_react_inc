@@ -1,0 +1,36 @@
+.sidebar {
+  width: 200px;
+  grid-area: b;
+}
+
+.img__logo {
+  display: block;
+  /* margin: 20px 50px 50px 50px; */
+  margin: 0 auto;
+  max-width: 130px;
+}
+
+.menu__sidebar {
+  margin: 50px 50px;
+}
+
+.menu__item {
+  padding-bottom: 10px;
+}
+
+.menu__item:hover {
+  text-shadow: 0px 0px 1px #36477B;
+}
+
+.menu__item:last-child {
+  padding-top: 100px;
+}
+
+.menu__item a {
+  text-decoration: none;
+  color: #36477B;
+}
+
+.active__item {
+  color: rgb(212, 10, 10);
+}
