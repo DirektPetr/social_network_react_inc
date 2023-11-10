@@ -4,7 +4,7 @@ import head from './Header.module.css';
 
 export const Header = () => {
   return (
-    <header className={head.header__main}>
+    <header className={head.header}>
       <Aplayer />
     </header>
   )

@@ -21,6 +21,31 @@ h1, h2, h3, h4 {
                         "d d d";
 }
 
+.header__main {
+  grid-area: a;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.wrapper__main {
+  margin: 20px 0px;
+  grid-area: c;
+  background-color: #fff;
+}
+
+.sidebar {
+  width: 200px;
+  grid-area: b;
+}
+
+.footer__main {
+  grid-area: d;
+  border-top: 1px solid #f8eebf;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
 
 
 

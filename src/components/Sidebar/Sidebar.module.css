@@ -1,7 +1,3 @@
-.sidebar {
-  width: 200px;
-  grid-area: b;
-}
 
 .img__logo {
   display: block;
@@ -18,19 +14,22 @@
   padding-bottom: 10px;
 }
 
-.menu__item:hover {
-  text-shadow: 0px 0px 1px #36477B;
-}
-
 .menu__item:last-child {
   padding-top: 100px;
 }
 
-.menu__item a {
+a {
   text-decoration: none;
   color: #36477B;
 }
 
-.active__item {
-  color: rgb(212, 10, 10);
+.menu__item:hover {
+  text-shadow: 0px 0px 1px #36477B;
+}
+
+.active {
+  font-weight: bold;
+  color: #36477B;
+  /* text-shadow: 1px 1px 1px #FFE676; */
+  text-shadow: 1px 0px 0px #36477B;
 }
