@@ -11,7 +11,7 @@ export const Profile = () => {
           <div className={profile.profile__name}>Petr Nicolaevich</div>
           <div className={profile.profile__description}>
             <ul className={profile.list}>
-              <li className={profile.item}>Date of Birth: 6 april 1983</li>
+              <li className={profile.item}>Date of Birth: 6 april 1986</li>
               <li className={profile.item}>City: Russia</li>
               <li className={profile.item}>Education: SAFU'02</li>
               <li className={profile.item}>Web Site: <a href='https://marfed.ru'>Marfed</a></li>
