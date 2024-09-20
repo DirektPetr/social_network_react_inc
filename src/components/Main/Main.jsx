@@ -1,5 +1,5 @@
 import main from './Main.module.css';
-import { Myposts } from './Myposts/Myposts';
+import {MyPosts} from './MyPosts/MyPosts';
 import { Posts } from './Posts/Posts';
 import { Profile } from './Profile/Profile';
 
@@ -9,7 +9,7 @@ export const Main = () => {
       <div className={main.cover}></div>
         
         <Profile />
-        <Myposts />
+        <MyPosts />
         <Posts />
 
 
