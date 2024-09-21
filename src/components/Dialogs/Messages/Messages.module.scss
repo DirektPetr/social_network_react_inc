@@ -1,0 +1,13 @@
+.messages {
+  display: flex;
+  /*align-content: center;*/
+  /*justify-content: center;*/
+  /*justify-items: center;*/
+  flex-direction: column;
+  gap: 1em;
+
+  h3 {
+    color: blueviolet;
+    font-weight: bold;
+  }
+}

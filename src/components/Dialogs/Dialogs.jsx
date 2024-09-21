@@ -1,12 +1,12 @@
-import dialogs from './Dialogs.module.css';
+import s from './Dialogs.module.scss';
+import {Users} from "./Users/Users";
+import {Messages} from "./Messages/Messages";
 
-
-export const Dialogs = () => {
-  return ( 
-    <section className={dialogs.wrapper}>
-      <div className={dialogs.content}>
-        <h3>Dialogs</h3>
-      </div>
-    </section>
-  )
+export const Dialogs = (props) => {
+    return (
+        <div className={s.dialogs_items}>
+            <Users usersData={props.usersData}/>
+            <Messages messagesData={props.messagesData}/>
+        </div>
+    )
 }

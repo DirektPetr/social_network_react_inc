@@ -1,4 +1,5 @@
 body {
+  overflow-x: hidden;
   padding: 0;
   margin: 0;
   background: rgb(255, 230, 118);
@@ -12,10 +13,10 @@ h1, h2, h3, h4 {
 
 .wrapper {
   margin: 0 auto;
-  width: 1200px;
+  max-width: 1200px;
   display: grid;
   grid-template-columns: 2fr 10fr;
-  grid-template-rows:  130px 1fr 150px;
+  grid-template-rows:  200px 1fr 150px;
   grid-template-areas:  "b a a" 
                         "b c c"
                         "d d d";
@@ -28,9 +29,20 @@ h1, h2, h3, h4 {
 }
 
 .wrapper__main {
-  margin: 20px 0px;
+  margin: 20px 0;
   grid-area: c;
   background-color: #fff;
+}
+
+.main_cover {
+  margin-bottom: 30px;
+  border-radius: 10px 10px 0px 0px;
+  min-height: 200px;
+  background: url('./img/cover-7.jpg');
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-size: cover;
 }
 
 .sidebar {

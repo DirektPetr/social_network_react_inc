@@ -1,0 +1,21 @@
+
+.users {
+  display: flex;
+  /*align-content: center;*/
+  /*justify-content: center;*/
+  /*justify-items: center;*/
+  flex-direction: column;
+  gap: 1em;
+  padding-right: 1em;
+  border-right: 1px solid #8A2BE2FF;
+
+  h3 {
+    color: blueviolet;
+    font-weight: bold;
+  }
+
+  .active {
+    color: brown;
+    font-weight: bold;
+  }
+}

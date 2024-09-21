@@ -1,20 +1,20 @@
 
-.img__logo {
+.img_logo {
   display: block;
   /* margin: 20px 50px 50px 50px; */
   margin: 0 auto;
   max-width: 130px;
 }
 
-.menu__sidebar {
+.menu_sidebar {
   margin: 50px 50px;
 }
 
-.menu__item {
+.menu_item {
   padding-bottom: 10px;
 }
 
-.menu__item:last-child {
+.menu_item:last-child {
   padding-top: 100px;
 }
 
@@ -23,13 +23,13 @@ a {
   color: #36477B;
 }
 
-.menu__item:hover {
+.menu_item:hover {
   text-shadow: 0px 0px 1px #36477B;
 }
 
 .active {
-  font-weight: bold;
+  /*font-weight: bold;*/
   color: #36477B;
   /* text-shadow: 1px 1px 1px #FFE676; */
-  text-shadow: 1px 0px 0px #36477B;
+  text-shadow: 1px 1px 0px #36477B;
 }
