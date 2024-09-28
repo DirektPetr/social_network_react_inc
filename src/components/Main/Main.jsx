@@ -10,7 +10,7 @@ export const Main = (props) => {
         
         <ProfileInfo />
         <MyPosts />
-        <Posts postsData={props.postsData} />
+        <Posts postsData={props.state.postsData} />
 
     </section>
   )
