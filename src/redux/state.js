@@ -3,15 +3,16 @@ import logo__img2 from "../img/logo__img__2.jpg";
 import logo__img3 from "../img/logo__img__3.jpg";
 import logo__img4 from "../img/logo__img__4.jpg";
 import logo__img5 from "../img/logo__img__5.jpg";
+import {rerenderEntireTree} from "../render";
 
 const state = {
     profilePage: {
         postsData: [
-            {id: 1, img: logo__img1, message: 'Lorem ipsum dolor sit amet, consetetur', likesCount: 14},
-            {id: 2, img: logo__img2, message: 'Lorem ipsum dolor', likesCount: 34},
-            {id: 3, img: logo__img3, message: 'Lorem ipsum dolor sit', likesCount: 4},
-            {id: 4, img: logo__img4, message: 'Lorem ipsum dolor sit amet', likesCount: 30},
-            {id: 5, img: logo__img5, message: 'Lorem dolor sit amet', likesCount: 3},
+            {id: 1, message: 'Lorem ipsum dolor sit amet, consetetur', img: logo__img1, likesCount: 14},
+            {id: 2, message: 'Lorem ipsum dolor', img: logo__img2, likesCount: 34},
+            {id: 3, message: 'Lorem ipsum dolor sit', img: logo__img3, likesCount: 4},
+            {id: 4, message: 'Lorem ipsum dolor sit amet', img: logo__img4, likesCount: 30},
+            {id: 5, message: 'Lorem dolor sit amet', img: logo__img5, likesCount: 3},
         ],
     },
     messagesPage: {
@@ -30,6 +31,18 @@ const state = {
             {id: 5, message: 'yes'},
         ]
     }
+}
+
+export let addPost = (postMessage) => {
+
+    let newPost = {
+        id: 6,
+        message: postMessage,
+        img: logo__img4,
+        likesCount: 0
+    };
+    state.profilePage.postsData.push(newPost)
+    rerenderEntireTree(state)
 }
 
 export default state
